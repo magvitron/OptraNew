@@ -12,7 +12,7 @@
           colorRange = ['rgba(245, 245, 245, alp)', 'rgba(229, 229, 229, alp)'];
           strokeColor = 'rgba(245,245,245, 0.5)';
         }
-  
+        console.log("Version: 1.0.0")
         $(this).prepend(cnv);
   
 
@@ -68,7 +68,7 @@
   
           for (var i = 0; i < opts.picksParTick; ++i)
           {
-            console.log(hexs.length);
+            // console.log(hexs.length);
             hexs[(Math.random() * hexs.length) | 0].pick();
           }
           hexs.map(function(hex) {
