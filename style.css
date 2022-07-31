@@ -34,6 +34,11 @@ p {
 	margin-top: 20%;
 }
 
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
