@@ -4,6 +4,35 @@ body, html {
 	overflow: hidden; /* Hide scrollbars */
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #33333300;
+	overflow: hidden;
+	font-family: Helvetica, sans-serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #d1cccc;
+	color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+	background-color: #024b86;
+	color: white;
+  }
+
 .section {
 	min-height: 800px;
 	position: relative;
@@ -60,7 +89,7 @@ p {
 	display: inline-block;
 	font-size: 8vw;
 	font-weight: bold;
-	letter-spacing: -15px;
+	letter-spacing: -9px;
 	line-height: .8;
 	font-family: Helvetica, sans-serif;
 }
