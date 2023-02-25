@@ -1,37 +1,10 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	overflow: hidden; /* Hide scrollbars */
+	overflow: auto; /* Hide scrollbars */
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-	background-color: #33333300;
-	overflow: hidden;
-	font-family: Helvetica, sans-serif;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-	float: left;
-	color: #000000;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-	background-color: #d1cccc;
-	color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-	background-color: #024b86;
-	color: white;
-  }
+
 
 .section {
 	min-height: 800px;
@@ -220,7 +193,7 @@ canvas {
 	/* / height: 100%; */
 	/* display: inline-block; */
 	position: absolute;
-	overflow: hidden;
+	overflow: visible;
 	top: 0;
 	left: 0;
 	z-index: -9999;
