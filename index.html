@@ -43,12 +43,14 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animatedText.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body>
 
-	<div class="fh5co-loader"></div>
+<body>
 	<div id="page">
 		<nav class="fh5co-nav" role="navigation">
 			<div class="container">
@@ -63,7 +65,8 @@
 								<a href="services.html">Services</a>
 								<ul class="dropdown">
 									<li><a href="services.html#fh5co_products_design_link">Product development</a></li>
-									<li><a href="services.html#fh5co_services_Consultancy_link">Engineering consultancy</a></li>
+									<li><a href="services.html#fh5co_services_Consultancy_link">Engineering
+											consultancy</a></li>
 									<li><a href="services.html#fh5co_services_Staffing_link">staffing</a></li>
 								</ul>
 							</li>
@@ -82,8 +85,49 @@
 			</div>
 		</nav>
 
-		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);"
-			data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover">
+		<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);" -->
+			<div id="animated-background" class="animated-background animated-background--white" data-color="white">
+				<div>
+					<canvas id="can0"></canvas>
+				</div>
+			</div>
+				<div class="deer-container">
+					
+					<!-- <img class="deer" src="https://assets.codepen.io/2621168/deer.jpg" alt="deer"> -->
+					<video class="deer" autoplay playsinline muted loop preload poster="preload.jpg" width="1%"
+						height="10%">
+						<source src="bg.mp4" />
+					</video>
+					<div class="anim_word_content">
+						<div class="word">
+							<!-- <span>O</span> -->
+							<span>P</span>
+							<span>T</span>
+							<span>R</span>
+							<span>A</span>
+
+						</div>
+						<div class="Solutions_word_content">
+							<p>Solutions</p>
+						</div>
+					</div>
+					<img class="leaf3" src="green.png" alt="leaf">
+
+
+				</div>
+
+				<!-- <svg viewBox="0 0 1 1">
+				<defs>
+					 <clipPath clipPathUnits="objectBoundingBox" id="deermask">
+						<path d="M303.49,371.1l-.2-.511a.145.145,0,0,0-.188-.082l-.511.2a.145.145,0,0,0-.082.188l.2.511a.145.145,0,0,0,.188.082l.511-.2A.145.145,0,0,0,303.49,371.1Zm-.547.166a.079.079,0,0,1-.1-.045l-.109-.281a.079.079,0,0,1,.045-.1l.281-.109a.079.079,0,0,1,.1.045l.109.281a.079.079,0,0,1-.045.1Z" transform="translate(-302.5 -370.5)" fill="#fff"/>
+					</clipPath>
+				</defs>
+			</svg>  -->
+
+		</header>
+
+		<div id="fh5co-services" class="fh5co-bg-section border-bottom">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -104,7 +148,7 @@
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
 
 		<div id="fh5co-project">
 			<div class="container">
@@ -532,6 +576,8 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/bg_animation.js"></script>
+	<script src="letterAnim.js"></script>
 
 </body>
 

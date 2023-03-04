@@ -32,11 +32,13 @@ summary {
 }
 
 audio,
-canvas,
 progress,
 video {
+  width: 15%    !important;
+  height: auto  !important;
   display: inline-block;
   vertical-align: baseline;
+  -webkit-mask-box-image: url(../Logo_new.svg)
 }
 
 audio:not([controls]) {
