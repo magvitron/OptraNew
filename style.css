@@ -135,7 +135,6 @@
 
 
 .deer {
-	clip-path: url(#deermask);
 	width: 40%;
 	aspect-ratio: 1 / 1;
 	object-fit: cover;
