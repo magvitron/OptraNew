@@ -110,9 +110,9 @@
 }
 
 .anim_word_content {
-	top:-20%;
+	top:-30%;
 	display: flex;
-	left:5%;
+	left:0%;
 	text-align: center;
 	position: relative;
 	filter: drop-shadow(-22px -7px 10px rgba(0, 0, 0, 0.5));
@@ -138,10 +138,10 @@
 	width: 100%;
 	aspect-ratio: 1 / 1;
 	object-fit: cover;
-	display: flex;
-	position: absolute;
-	left:-10%;
-	top:-70%;
+	/* display: flex; */
+	position: relative;
+	left:0%;
+	top:0%;
 }
 
 .deer-container {
