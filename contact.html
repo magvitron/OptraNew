@@ -89,20 +89,24 @@
 			</div>
 		</nav>
 
-		<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner"
-			style="background-image:url(images/img_bg_1.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 text-left">
-						<div class="display-t">
-							<div class="display-tc animate-box" data-animate-effect="fadeInUp">
-								<h1 class="mb30">Contact Us</h1>
-							</div>
-						</div>
-					</div>
+		<header id="fh5co-header" class="fh5co-cover">
+			<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);" -->
+			<div id="animated-background" class="animated-background animated-background--white" data-color="white">
+				<div>
+					<canvas id="can0"></canvas>
 				</div>
 			</div>
+			<div class="heading_text">
+				<h1>Contact Us</h1>
+			</div>
+			<!-- <svg viewBox="0 0 1 1">
+				<defs>
+					 <clipPath clipPathUnits="objectBoundingBox" id="deermask">
+						<path d="M303.49,371.1l-.2-.511a.145.145,0,0,0-.188-.082l-.511.2a.145.145,0,0,0-.082.188l.2.511a.145.145,0,0,0,.188.082l.511-.2A.145.145,0,0,0,303.49,371.1Zm-.547.166a.079.079,0,0,1-.1-.045l-.109-.281a.079.079,0,0,1,.045-.1l.281-.109a.079.079,0,0,1,.1.045l.109.281a.079.079,0,0,1-.045.1Z" transform="translate(-302.5 -370.5)" fill="#fff"/>
+					</clipPath>
+				</defs>
+			</svg>  -->
+
 		</header>
 
 
@@ -299,6 +303,7 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/bg_animation.js"></script>
 
 </body>
 

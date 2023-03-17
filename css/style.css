@@ -1131,10 +1131,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .fh5co-heading.fh5co-heading-sm {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .fh5co-heading h2 {
   font-size: 55px;
@@ -1810,6 +1810,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .anim_word_content {
+  font-size: 55px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #000;
+
 	top:-30%;
 	display: flex;
 	left:0%;
@@ -1850,6 +1856,25 @@ h1, h2, h3, h4, h5, h6, figure {
 	color: rgb(0, 0, 0);
 	top:30%;
 	left:40%;
+}
+.heading_text {
+	position: absolute;
+	display: flex;
+	color: rgb(0, 0, 0);
+	top:50%;
+  left:10%;
+  filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  animation: heading_text 8s infinite alternate-reverse ease-in-out;
+  font-size: 3vw;
+}
+@keyframes heading_text {
+	from {
+		transform: translateY(30px);
+	}
+
+	to {
+		transform: translateY(0);
+	}
 }
 
 .leaf1, .leaf2, .leaf3 {
