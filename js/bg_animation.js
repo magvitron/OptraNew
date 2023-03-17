@@ -17,7 +17,8 @@
   
 
         var canvas = document.getElementById('can0');
-        canvas.height = window.innerHeight;
+        // canvas.height = window.innerHeight;
+        canvas.height = document.documentElement.clientHeight;
         canvas.width = window.innerWidth;
 
         var can = document.getElementById("can"+index);
