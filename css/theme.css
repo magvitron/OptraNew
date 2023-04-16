@@ -7435,6 +7435,16 @@ h6 .inverted {
     top: 50%
 }
 
+.left-20pct {
+    left: 20%
+}
+.left-2pct {
+    left: 2%
+}
+.left-05pct {
+    left: 5%
+}
+
 .left-50pct {
     left: 50%
 }
