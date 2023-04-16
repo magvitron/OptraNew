@@ -12495,6 +12495,18 @@ body.page-transition-active {
     bottom: 60px !important
 }
 
+#open-popup {padding:20px}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
 .popup-inline-content,
 .mfp-content .ajax-container {
     background: none repeat scroll 0 0 #fff;
@@ -12505,7 +12517,9 @@ body.page-transition-active {
     text-align: left;
     display: none
 }
-
+.mfp-content {
+    color: #000 !important;
+  }
 .mfp-content .ajax-container {
     display: block
 }
