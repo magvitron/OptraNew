@@ -381,43 +381,43 @@ html .bg-color-hover-before-primary:before:hover {
 }
 html .bg-color-secondary,
 html .bg-secondary {
-  background-color: #000120 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-secondary:hover,
 html .bg-hover-secondary:hover {
-  background-color: #000120 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-after-secondary:after {
-  background-color: #171717 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-after-secondary:after:hover {
-  background-color: #171717 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-before-secondary:before {
-  background-color: #171717 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-before-secondary:before:hover {
-  background-color: #171717 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-tertiary,
 html .bg-tertiary {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-tertiary:hover,
 html .bg-hover-tertiary:hover {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-after-tertiary:after {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-after-tertiary:after:hover {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-before-tertiary:before {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-hover-before-tertiary:before:hover {
-  background-color: #232323 !important;
+  background-color: #153558 !important;
 }
 html .bg-color-quaternary,
 html .bg-quaternary {
