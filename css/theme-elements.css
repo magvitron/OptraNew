@@ -12501,7 +12501,7 @@ body.page-transition-active {
   background: #FFF;
   padding: 40px;
   width: auto;
-  max-width: 200px;
+  max-width: 90%;
   margin: 20px auto;
   text-align: center;
 }
