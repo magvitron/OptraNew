@@ -7721,12 +7721,20 @@ h6 .inverted {
     top: 30px !important
 }
 
+
 .bottom-20 {
     bottom: 20px !important
 }
 
+.bottom-10-per {
+    bottom: 10% !important
+}
+
 .bottom-30 {
     bottom: 30px !important
+}
+.bottom-40 {
+    bottom: 40px !important
 }
 
 .transform3dx-n50 {
