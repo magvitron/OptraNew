@@ -2880,6 +2880,15 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
     transform: scaleX(0);
     transform-origin: right center
 }
+.color_orange {
+  color: #fa4f41;
+}
+.color_inverted_blue {
+    color: #eacaa7;
+  }
+.color_blue {
+    color:#0073b2 !important;
+}
 
 .btn.btn-effect-7:hover:before,
 .btn.btn-effect-7:focus:before {
@@ -8194,7 +8203,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #212529;
+    color: #fa4f41;
     font-weight: 200;
     letter-spacing: -.05em;
     margin: 0;
