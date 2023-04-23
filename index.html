@@ -86,7 +86,7 @@
 				data-scroll-section-inview=""
 				style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;">
 
-				<div class="d-xl-flex flex-row p-relative w-100" id="home">
+				<div class="d-xl-flex flex-row p-relative w-100" id="index">
 
 					<header id="header" data-plugin-options="{&#39;stickyEnabled&#39;: false}">
 						<div class="header-body" id="particles-js">
@@ -1377,13 +1377,16 @@
 
 		</div>
 	</div>
-	<a class="demos-redirect" href="#index" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right"
+	<!-- <a class="demos-redirect" href="#about" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right"
 		aria-label="Demos" data-bs-original-title="Demos"><img alt="Demos" src="img/demos-redirect.png"
-			class="img-fluid"></a>
-	<!-- <a class="style-switcher-open-loader" href="https://www.okler.net/previews/porto/9.9.2/index.html" data-bs-placement="right" aria-label="Home" data-bs-original-title="Home"><i class="fa fa-home"></i></a> -->
-	<!-- 		
-		<a class="envato-buy-redirect" href="https://themeforest.net/checkout/from_item/4106987?license=regular&amp;support=bundle_6month&amp;ref=Okler" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right" aria-label="Buy Porto" data-bs-original-title="Buy Porto"><i class="fa fa-shopping-cart"></i></a>
-		<a class="demos-redirect" href="https://www.okler.net/previews/porto/9.9.2/index.html#demos" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right" aria-label="Demos" data-bs-original-title="Demos"><img alt="Demos" src="img/demos-redirect.png" class="img-fluid"></a> -->
+			class="img-fluid"></a> -->
+	<!-- <a class="style-switcher-open-loader" href="#about" data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+		<i class="fa fa-home"></i></a> -->
+			
+		<!-- <a class="envato-buy-redirect" href="#about" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right" aria-label="Buy Porto" data-bs-original-title="Buy Porto"><i class="fa fa-shopping-cart"></i></a> -->
+		<a class="demos-redirect" href="#" 
+		data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="right" aria-label="Demos" 
+		data-bs-original-title="Demos"><i class="fa fa-home"></i></a>
 
 
 	<!-- Vendor -->
@@ -1435,6 +1438,13 @@
 					removalDelay: 300,
 					mainClass: 'mfp-fade'
 				});
+				document.getElementsByClassName('demos-redirect')[0].onclick = function(){
+   					location.href= 'index.html'
+					// const reftp = document.getElementById("home");
+					// console.info(reftp);
+					// document.getElementById('home').scrollIntoView();
+					// setPage(true);
+				}
 			});
 
 	</script>

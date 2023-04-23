@@ -12236,10 +12236,10 @@ body.page-transition-active {
 
 @media(max-width:767px) {
 
-    .envato-buy-redirect,
+    /* .envato-buy-redirect,
     .demos-redirect {
         display: none
-    }
+    } */
 }
 
 [data-plugin-video] {
