@@ -1147,6 +1147,13 @@ p.lead {
     font-size: calc(40px + 50 * ((100vw - 300px) / (1200 - 300)));
     line-height: calc(40px + 50 * ((100vw - 300px) / (1200 - 300)));
 }
+.custom-hero-font-3 {
+    font-size: calc(25px + 2 * ((100vw - 300px) / (1200 - 300)));
+    line-height: calc(30px + 1 * ((100vw - 300px) / (1200 - 300)));
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
 
 .custom-hero-font-2 {
     font-size: calc(40px + 50 * ((100vw - 300px) / (1200 - 300)));
